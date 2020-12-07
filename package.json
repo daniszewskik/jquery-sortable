@@ -4,7 +4,8 @@
   "description": "jquery plugin for sortable, nestable lists",
   "main": "./source/js/jquery-sortable.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd ./node_modules/jquery-sortable && npm install && npm run build"
   },
   "repository": {
     "type": "git",
